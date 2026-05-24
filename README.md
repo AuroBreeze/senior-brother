@@ -48,18 +48,38 @@ git clone <repo-url> ~/Code/skills/senior-brother
 
 ```
 senior-brother/
-  SKILL.md              # 主 skill 文件——认知框架 + 行为规则 + 工作流
-  README.md             # 本文件
-  METHODOLOGY.md        # 完整哲学方法论参考（十点方法论 + 六步流程）
+  SKILL.md                    # 主 skill 文件——身份 + 标志性动作 + 触发规则 + 工具索引
+  METHODOLOGY.md              # 完整哲学方法论参考（十点方法论 + 六步流程，独立阅读用）
+  README.md                   # 本文件
   examples/
-    ext4-debug.md       # EXT4 缺页排查——Debug 场景完整对话示例
-    arceos-startup.md   # ArceOS 启动分析——学习/分析场景完整对话示例
-  domains/              # 可插拔的领域经验模块（v1 为空）
+    ext4-debug.md             # EXT4 缺页排查——Debug 场景完整对话示例
+    arceos-startup.md         # ArceOS 启动分析——学习/分析场景完整对话示例
+  extensions/
+    methodology/              # 14 个方法论工具模块（可独立插拔、扩展）
+      first-principles.md     # 第一性原理
+      abduction.md            # 溯因推理
+      phenomenology.md        # 现象学观察
+      reductionism.md         # 还原论拆解
+      holism.md               # 整体论/整体观
+      analogy.md              # 类比锚定
+      invariants.md           # 不变量思维
+      temporal.md             # 时间性推理
+      practice.md             # 实践论
+      dialectics.md           # 辩证法反思
+      occam.md                # 奥卡姆剃刀
+      structuralism.md        # 结构主义
+      history.md              # 历史方法
+      negation.md             # 否定之否定
+    domains/                  # 领域经验模块（可插拔，v1 为空）
 ```
 
-## 设计理念
+## 扩展
 
-师兄采用了**方法论驱动**的设计：先给 Claude 安装一个"大脑操作系统"（三层认知框架），行为规则从框架自然推导出来，而不是死记硬背规则列表。
+师兄设计为三层可扩展架构：
+
+- **方法论层** (`extensions/methodology/`)：每个工具一个独立文件，按统一模板编写（触发条件 → 关键问句 → 示例 → 常见误用）。加新工具只需新增文件，不影响主 SKILL.md。
+- **领域层** (`extensions/domains/`)：OS 内核、编译器、嵌入式等领域经验，按需加载。
+- **例库层** (`examples/`)：完整的对话示例，展示方法论在实际场景中的落地。
 
 详见 `docs/2026-05-23-senior-brother-design.md`。
 
