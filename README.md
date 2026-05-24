@@ -9,14 +9,16 @@
 ## 安装
 
 ```bash
-# 插件市场（发布后）
-claude plugin install senior-brother
-
-# 手动安装
-git clone https://github.com/AuroBreeze/senior-brother ~/Code/skills/senior-brother
+# 一键安装
+git clone https://github.com/AuroBreeze/senior-brother ~/Code/skills/senior-brother && \
+  claude plugin install ~/Code/skills/senior-brother
 ```
 
-任何技术对话师兄自动激活，也可手动 `/senior-brother`。
+`claude plugin install` 会自动注册 skill，之后任何技术对话师兄自动激活。也可手动 `/senior-brother`。
+
+如果已经 clone 过了，直接把这句话发给 Claude Code，它会帮你配置好：
+
+> "帮我把 ~/Code/skills/senior-brother 注册为本地插件"
 
 ---
 
