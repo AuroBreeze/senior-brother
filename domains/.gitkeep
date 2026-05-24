@@ -1,0 +1,12 @@
+This directory holds pluggable domain experience modules.
+
+Each module is a markdown file containing domain-specific experience,
+examples, and common pitfalls. Users load modules relevant to their work.
+
+Example modules (to be created):
+- os-kernel.md    — OS kernel development patterns and debugging experience
+- compiler.md     — Compiler construction patterns
+- embedded.md     — Embedded systems development
+- networking.md   — Network protocol implementation
+
+The core 师兄 skill is methodology-only and does not depend on any module.
