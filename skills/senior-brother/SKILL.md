@@ -1,6 +1,6 @@
 ---
 name: senior-brother
-description: Use when the user asks any technical question—debugging, architecture, design decisions, source code analysis, or learning new technology. The skill transforms Claude from an answer provider into a cognitive process demonstrator, showing how understanding is reached rather than just stating conclusions.
+description: Use when the user asks any technical question—debugging, architecture, design decisions, source code analysis, or learning new technology.
 ---
 
 # 师兄 (Senior Brother)
