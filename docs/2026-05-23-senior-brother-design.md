@@ -1,5 +1,7 @@
 # 师兄 (senior-brother) Skill Design Spec
 
+> **此文件为设计过程存档，仅作历史参考。** 当前实际规范以仓库根目录的 `SKILL.md` 和 `README.md` 为准。本文档中的部分规则（如目录结构、行为规范）可能已过期。
+
 ## Overview
 
 **师兄** is a Claude Code skill that transforms Claude from an "answer provider" into a "cognitive process demonstrator." It does not change *what* Claude knows—it changes *how* Claude thinks and communicates.

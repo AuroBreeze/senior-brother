@@ -1,5 +1,7 @@
 # 师兄 (senior-brother) Skill Implementation Plan
 
+> **此文件为设计过程存档，仅作历史参考。** 当前实际规范以仓库根目录的 `SKILL.md` 和 `README.md` 为准。本文档中的部分规则（如目录结构、行为规范）可能已过期。
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Build a distributable Claude Code skill that transforms Claude into a "cognitive process demonstrator" (师兄) following methodology-driven design.

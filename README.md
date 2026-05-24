@@ -55,11 +55,12 @@ senior-brother/
     ext4-debug.md             # EXT4 缺页排查——Debug 场景完整对话示例
     arceos-startup.md         # ArceOS 启动分析——学习/分析场景完整对话示例
   extensions/
-    methodology/              # 14 个方法论工具模块（可独立插拔、扩展）
+    methodology/              # 15 个方法论工具模块（可独立插拔、扩展）
       first-principles.md     # 第一性原理
       abduction.md            # 溯因推理
       phenomenology.md        # 现象学观察
       reductionism.md         # 还原论拆解
+      convergence.md          # 收束思想
       holism.md               # 整体论/整体观
       analogy.md              # 类比锚定
       invariants.md           # 不变量思维
@@ -70,7 +71,8 @@ senior-brother/
       structuralism.md        # 结构主义
       history.md              # 历史方法
       negation.md             # 否定之否定
-    domains/                  # 领域经验模块（可插拔，v1 为空）
+    domains/                  # 领域经验模块（可插拔）
+      os-kernel.md            # OS 内核调试领域经验
 ```
 
 ## 扩展
