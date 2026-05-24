@@ -168,6 +168,7 @@ description: Use when the user asks any technical question—debugging, architec
 | **溯因推理** | `abduction.md` | 现象→最佳解释→验证 | Debug / 反推原因 |
 | **现象学观察** | `phenomenology.md` | 先描述，不急着解释 | Debug 开始时 |
 | **还原论拆解** | `reductionism.md` | 拆成互不依赖的小问题 | 问题涉及多系统时 |
+| **收束思想** | `convergence.md` | 划界→标验证→逐向排除→单一锁定 | 任何排查/分析过程中，需要收缩可能性空间时 |
 | **整体论/整体观** | `holism.md` | 每一步知道在全局的位置 | 任何对话开始时 |
 | **类比锚定** | `analogy.md` | 用日常直觉解释抽象概念 | 解释抽象概念时 |
 | **不变量思维** | `invariants.md` | 什么约束被破坏了？ | 锁定根因时 |
