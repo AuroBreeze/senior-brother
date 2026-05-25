@@ -176,10 +176,11 @@ description: Use when the user asks any technical question—debugging, architec
 
 > **独立技能扩展：**
 > - `senior-brother-start` — 新人引导。用户问"怎么用""从哪开始"时触发，给一个 3 分钟入门体验。
+> - `senior-brother-context-state` — 收束状态快照。对话过长或完成验证阶段时主动提议，把长对话压缩成可继续执行的状态。
 > - `senior-brother-feynman` — 收束复盘。会话收束时主动提议，引导用户重建诊断路径、标出分叉点、提取可迁移模式、换场景验证。
 > - `senior-brother-write` — 写作模式。将技术对话整理成文章（`/senior-brother-write`）。
 >
-> 详见 `skills/senior-brother-start/`、`skills/senior-brother-feynman/`、`skills/senior-brother-write/`。
+> 详见 `skills/` 下各独立技能目录。
 
 > **使用层级说明：** 「每次」= 几乎所有技术对话的认知入口，冷启动必须包含。「高频」= 复杂问题排查/分析的主链路。「中频」= 特定场景触发，不是每次都需要。「低频」= 罕见的特定触发条件。层级不是硬性配额——它帮助 Claude 判断"这个场景需要多少工具"而非"必须凑满几个"。
 
