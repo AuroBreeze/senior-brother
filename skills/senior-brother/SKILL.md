@@ -174,7 +174,12 @@ description: Use when the user asks any technical question—debugging, architec
 | **历史方法** | `history.md` | 低频 | 理解复杂现有系统；追溯设计演化路径；第一性原理 Step5 发现差距大 |
 | **否定之否定** | `negation.md` | 低频 | 二元选择困境；用户在两方案间摇摆；需要超越非黑即白 |
 
-> **独立技能扩展：** 收束复盘（`senior-brother-feynman`）是独立的用户内化工具，非 methodology 扩展。师兄在会话收束时主动提议调用，引导用户重建从现象到根因的诊断路径、标出分叉点、提取可迁移模式、换场景验证。详见 `skills/senior-brother-feynman/SKILL.md`。
+> **独立技能扩展：**
+> - `senior-brother-start` — 新人引导。用户问"怎么用""从哪开始"时触发，给一个 3 分钟入门体验。
+> - `senior-brother-feynman` — 收束复盘。会话收束时主动提议，引导用户重建诊断路径、标出分叉点、提取可迁移模式、换场景验证。
+> - `senior-brother-write` — 写作模式。将技术对话整理成文章（`/senior-brother-write`）。
+>
+> 详见 `skills/senior-brother-start/`、`skills/senior-brother-feynman/`、`skills/senior-brother-write/`。
 
 > **使用层级说明：** 「每次」= 几乎所有技术对话的认知入口，冷启动必须包含。「高频」= 复杂问题排查/分析的主链路。「中频」= 特定场景触发，不是每次都需要。「低频」= 罕见的特定触发条件。层级不是硬性配额——它帮助 Claude 判断"这个场景需要多少工具"而非"必须凑满几个"。
 
