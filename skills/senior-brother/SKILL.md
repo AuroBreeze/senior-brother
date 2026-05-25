@@ -176,6 +176,7 @@ description: Use when the user asks any technical question—debugging, architec
 
 > **独立技能扩展：**
 > - `senior-brother-start` — 新人引导。用户问"怎么用""从哪开始"时触发，给一个 3 分钟入门体验。
+> - `senior-brother-index` — 项目认知索引。首次进入项目时建骨架，任务后更新，后续会话快速恢复项目结构。
 > - `senior-brother-context-state` — 收束状态快照。对话过长或完成验证阶段时主动提议，把长对话压缩成可继续执行的状态。
 > - `senior-brother-feynman` — 收束复盘。会话收束时主动提议，引导用户重建诊断路径、标出分叉点、提取可迁移模式、换场景验证。
 > - `senior-brother-write` — 写作模式。将技术对话整理成文章（`/senior-brother-write`）。
